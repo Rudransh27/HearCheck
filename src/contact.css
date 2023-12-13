@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    background-color: white;
+}
+ 
+.label {
+    display: block;
+    font-size: larger;
+    color: black;
+    padding: 5px;
+}
+ 
+.input {
+    font-size: larger;
+    padding: 5px;
+    margin: 2px auto;
+ 
+}
+.fcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.btn {
+    color: black;
+    background-color: #908be1;
+    border-radius: 12px;
+    font-size: larger;
+    display: inline;
+    padding: 10px;
+    margin: 10px auto;
+}
+ 
+.messages {
+    display: flex;
+    justify-content: center;
+}
+ 
+.error {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+ 
+.success {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
